@@ -15,10 +15,10 @@ const showPlayerDetails = (Players) =>{
     div.innerHTML =`
     <div class="card border">
     <div class="pro-pic">
-        <img class="w-25" src="" alt="">
+        <img  class="w-25" src="${player.strThumb}" alt="">
     </div>
-    <h2>Name:cool</h2>
-    <h5>Country:</h5>
+    <h2>Name:${player.strPlayer}</h2>
+    <h5>Country:${player.strNationality}</h5>
     <p></p>
     <div class="allButton">
         <button class ="btn btn-danger">Delete</button>
